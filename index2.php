@@ -19,7 +19,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     <title>TechShop30 | Home - <?php $_SESSION['Username']?></title>
 </head>
 <body>
-Welcome - <?php echo $_SESSION['username']?>
+Welcome - <?php echo $_SESSION['Username']?>
   <header class="text-gray-600 body-font">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -47,7 +47,7 @@ Welcome - <?php echo $_SESSION['username']?>
             <p class="mb-8 leading-relaxed">Hello, Here We Sell 3D Models Online, Like SketchFab, And 3ds. This Website Is Inspired By Sketch Fab. Continue Shopping.
             </p>
             <div class="flex justify-center">
-              <a href="signup.html" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Sign In</a>
+              <a href="shop.html" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Shop Now</a>
             </div>
           </div>
         </div>
