@@ -17,7 +17,7 @@ $password = md5($_POST["password"]);
         $login = true;
   session_start();
   $_SESSION['loggedin'] = true;
-  $_SESSION['username'] = true;
+  $_SESSION['username'] = $username;
   header("Location: index2.php");
     }
 else{
