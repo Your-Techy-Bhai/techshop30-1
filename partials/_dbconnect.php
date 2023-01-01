@@ -1,7 +1,7 @@
 <?php
 
-$username = "root";
-$password = "";
+$username = "arnav";
+$password = "techshop@30";
 $database = "usersta3";
 $server = "localhost";
 
