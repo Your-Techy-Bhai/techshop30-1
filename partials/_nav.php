@@ -22,15 +22,15 @@
           <a class="nav-link active" aria-current="page" href="/signin">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/signin/login.php">Login</a>
+          <a class="nav-link" href="/login.php">Login</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/signin/signup.php">SignUp</a>
+          <a class="nav-link" href="/signup.php">SignUp</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/signin/logout.php">LogOut</a>
+          <a class="nav-link" href="/logout.php">LogOut</a>
         </li>
         
       </ul>
