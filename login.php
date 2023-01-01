@@ -54,7 +54,7 @@ else{
    <h1 class="text-center">SignUp To Our Website.</h1>
    <form id = 'signin-fm' action="/login.php" method="post">
   <div class="form-group col-md-6">
-  <label for="password">Email address</label>
+  <label for="username">Username</label>
   <input type="text" class="form-control" id="username" name="username" aria-describedby="emailHelp">
 </div>
 <div class="form-group col-md-6">
