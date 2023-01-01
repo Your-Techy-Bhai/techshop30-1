@@ -47,7 +47,6 @@ Welcome - <?php echo $_SESSION['username']?>
             <p class="mb-8 leading-relaxed">Hello, Here We Sell 3D Models Online, Like SketchFab, And 3ds. This Website Is Inspired By Sketch Fab. Continue Shopping.
             </p>
             <div class="flex justify-center">
-              <a href="shop.html" class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Shop Now</a>
               <a href="signup.html" class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Sign In</a>
             </div>
           </div>
