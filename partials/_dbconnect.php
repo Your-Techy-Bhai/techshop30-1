@@ -3,7 +3,7 @@
 $username = "arnav";
 $password = "techshop@30";
 $database = "usersta3";
-$server = "localhost";
+$server = "phpmyadmin";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 if ($conn){
