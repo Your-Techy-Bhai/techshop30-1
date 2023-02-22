@@ -18,7 +18,7 @@ $password = md5($_POST["password"]);
   session_start();
   $_SESSION['loggedin'] = true;
   $_SESSION['username'] = $username;
-  header("Location: /Spotify");
+  header("Location: Spotify");
     }
 else{
     $showError = "Invalid Credentials";}
